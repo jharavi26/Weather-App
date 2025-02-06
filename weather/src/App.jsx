@@ -1,14 +1,15 @@
-import { useState } from 'react'
+import React from "react";
+import Weather from "./Components/Weather";
 
-import './App.css'
 
 function App() {
  
 
   return (
     <>
-    <h1>Weather App</h1>
-      
+    <div className='app'>
+     <Weather />
+    </div>
       
     </>
   )
